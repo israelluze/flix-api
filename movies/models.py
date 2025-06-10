@@ -9,6 +9,6 @@ class Movie(models.Model):
     release_date = models.DateField(blank=True, null=True)
     actors = models.ManyToManyField(Actor, related_name='movies')
     resume = models.TextField(blank=True, null=True)
-    
+
     def __str__(self):
         return self.title

@@ -1,7 +1,7 @@
 from django.db import models
 
 NATIONALITIES = [
-    ('American', 'American'),
+    ('American', 'USA'),
     ('Brazilian', 'Brazilian'),
     ('British', 'British'),    
     ('Canadian', 'Canadian'),
